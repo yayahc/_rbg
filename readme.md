@@ -21,7 +21,7 @@ alias trbg="$HOME/.rbg/run.sh"
 
 - Uninstall :
 ```bash
-.rbg/uninstall.sh
+.rbg/uninstall.sh && unalias trbg
 ```
 
-Change pictures path in run.sh
+Change pictures path in run.sh (default $HOME/Pictures)
