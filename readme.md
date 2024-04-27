@@ -16,7 +16,7 @@ git clone https://github.com/yayahc/rbg.git .rbg && chmod +x .rbg/install.sh && 
 
 - Create an alias (recommended)
 ```bash
-alias trbg="./run.sh"
+alias trbg="$HOME/.rbg/run.sh"
 ```
 
 - Uninstall :

@@ -1,2 +1,2 @@
 #!/bin/bash
-rbg '$HOME/Pictures' > /dev/null 2>&1
+rbg $HOME/Pictures > /dev/null 2>&1
