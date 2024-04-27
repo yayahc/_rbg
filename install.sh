@@ -1,4 +1,4 @@
 #!/bin/bash
-dart pub global activate --source path .
+dart pub global activate --source path .rbg
 chmod +x .rbg/run.sh && chmod +x .rbg/uninstall.sh
 alias trbg="./run.sh"
