@@ -10,6 +10,9 @@ environment:
 dependencies:
   process_run: ^0.14.2
   # path: ^1.8.0
+  
+executables:
+  rbg:
 
 dev_dependencies:
   lints: ^2.1.0

@@ -1,7 +1,8 @@
 import 'dart:io';
 
 class FileManager {
-  Future<List<String>> readCurrentFolderFiles(String picturesPath) async {
+  static Future<List<String>> readCurrentFolderFiles(
+      String picturesPath) async {
     final List<String> pictures = <String>[];
     final Directory dir = Directory(picturesPath);
     final files = dir.list();
